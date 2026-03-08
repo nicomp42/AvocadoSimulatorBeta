@@ -12,11 +12,13 @@ import avocado.Avocado;
  *
  */
 public class Main {
-	// enum myEnum {A,B,C,D};	// Demo of enumerated date type
+
+//	enum myEnum {A,B,C,D};	// Demo of enumerated date type
 
 	public static void main(String[] args) {
-		// Declare and instantiate an Avocado object
-		Avocado bob = new Avocado("Green", Avocado.enumCondition.fresh, 100);
+		//Declare and instantiate an Avocado object
+		Avocado bob = new Avocado("green", Avocado.enumCondition.fresh, 100 );
+
 		
 		//myEnum e = myEnum.A;
 		//e = myEnum.B;
